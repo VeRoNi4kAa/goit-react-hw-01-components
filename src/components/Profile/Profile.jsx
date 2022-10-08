@@ -32,11 +32,11 @@ const User = ({avatar, username, tag, location, stats}) => {
     }
 
     User.propTypes = {
-        avatar: PropTypes.string,
-        username: PropTypes.string,
-        tag: PropTypes.string,
-        location: PropTypes.string,
-        stats: PropTypes.number, 
+        avatar: PropTypes.string.isRequired,
+        username: PropTypes.string.isRequired,
+        tag: PropTypes.string.isRequired,
+        location: PropTypes.string.isRequired,
+        stats: PropTypes.number.isRequired, 
     };
 
     export default User;
