@@ -20,7 +20,7 @@ import user from './Profile/user.json';
 export default function App(){
   return ( 
    <div>
-    {user.map(profile => (
+    {user.map(user => (
     <Profile 
   avatar={user.avatar} 
   username={user.username} 
