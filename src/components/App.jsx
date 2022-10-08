@@ -16,13 +16,18 @@
 // };
 
 import Profile from "./Profile/Profile";
-import User from './Profile/user.json';
+import user from './Profile/user.json';
 export default function App(){
-  return <div>
-    <User 
+  return ( 
+   <div>
+    {user.map(profile => (
+    <Profile 
   avatar={user.avatar} 
   username={user.username} 
   tag={user.tag} 
   location={user.location} 
-  stats={user.stats}/> </div>;
+  stats={user.stats}/> 
+  ))}
+  </div>
+  );
 }

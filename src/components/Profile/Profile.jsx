@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 const User = ({avatar, username, tag, location, stats}) => {
     return (
       <div>
@@ -29,4 +31,13 @@ const User = ({avatar, username, tag, location, stats}) => {
   );
     }
 
+    User.propTypes = {
+        avatar: PropTypes.string,
+        username: PropTypes.string,
+        tag: PropTypes.string,
+        location: PropTypes.string,
+        stats: PropTypes.number, 
+    };
+
     export default User;
+
