@@ -1,16 +1,11 @@
-//import React from 'react';
+import React from 'react'
 import ReactDOM from 'react-dom';
-// import user from './user.json';
-import App from 'components/App';
-// import { App } from 'components/App';
-//import './index.css';
+import App from './App'
 
-// ReactDOM.createRoot(document.getElementById('root')).render(
-// <React.StrictMode>
-// <App />
-// </React.StrictMode>
-//  );
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.querySelector('#root')
+)
 
-
-  
-ReactDOM.render(<App/>, document.querySelector(`#root`));
