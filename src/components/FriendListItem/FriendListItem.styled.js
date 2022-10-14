@@ -1,6 +1,4 @@
-import styled from "styled-components";
-
-
+import styled from 'styled-components';
 
 export const OneFriend = styled.li`
   display: flex;
@@ -10,7 +8,7 @@ export const OneFriend = styled.li`
   &:not(:last-child) {
     margin-bottom: 20px;
   }
-  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 `;
 
 export const Status = styled.span`
@@ -19,7 +17,7 @@ export const Status = styled.span`
   border-radius: 50%;
   background-color: green;
   margin-right: 20px;
-  background-color: ${(props) => props.status};
+  background-color: ${props => props.status};
 `;
 
 export const FriendImg = styled.img`

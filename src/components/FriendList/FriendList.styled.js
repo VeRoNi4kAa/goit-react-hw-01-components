@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const AllFriendList = styled.ul`
   list-style: none;
