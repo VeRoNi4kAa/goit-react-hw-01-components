@@ -1,5 +1,5 @@
-import User from './components/user/User'
-import Statistics from './components/statistics/Statistics'
+import User from './components/User/User'
+import Statistics from './components/Statistics/Statistics'
 import FriendList from './components/FriendList/FriendList'
 import TransactionHistory from './components/TransactionHistory/TransactionHistory'
 import userList from './data/user.json'
