@@ -1,4 +1,4 @@
-import User from './components/User/User';
+import User from './components/Users/User';
 import Statistics from './components/Statistics/Statistics';
 import FriendList from './components/FriendList/FriendList';
 import TransactionHistory from './components/TransactionHistory/TransactionHistory';
